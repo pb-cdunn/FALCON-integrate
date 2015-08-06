@@ -22,3 +22,6 @@
 [submodule "virtualenv"]
 	path = virtualenv
 	url = git://github.com/pb-cdunn/virtualenv
+[submodule "FALCON-pypeFLOW"]
+	path = FALCON-pypeFLOW
+	url = git://github.com/PacificBiosciences/FALCON-pypeFLOW.git
