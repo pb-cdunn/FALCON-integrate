@@ -22,3 +22,12 @@
 [submodule "virtualenv"]
 	path = virtualenv
 	url = git://github.com/pb-cdunn/virtualenv
+[submodule "pbcommand"]
+	path = pbcommand
+	url = git://github.com/PacificBiosciences/pbcommand.git
+[submodule "FALCON-pbsmrtpipe"]
+	path = FALCON-pbsmrtpipe
+	url = git://github.com/PacificBiosciences/FALCON-pbsmrtpipe.git
+[submodule "pbsmrtpipe"]
+	path = pbsmrtpipe
+	url = git://github.com/PacificBiosciences/pbsmrtpipe.git
