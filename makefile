@@ -16,4 +16,4 @@ test:
 
 update:
 	@echo Fetching latest commits from our bitbucket and from bio-nim.
-	git submodule update --recursive --init --remote
+	git submodule update --jobs=4 --recursive --init --remote

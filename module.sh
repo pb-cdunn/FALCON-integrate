@@ -1,2 +1,3 @@
 module purge
-module load git python/2 nim gcc ccache
+module load python/2 nim gcc ccache
+module load git/2.14.1
