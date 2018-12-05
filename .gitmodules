@@ -1,34 +1,42 @@
 [submodule "pypeFLOW"]
 	path = pypeFLOW
 	url = ../pypeFLOW.git
+	ignore=dirty
 	branch = develop
 [submodule "DALIGNER"]
 	path = DALIGNER
 	url = ../DALIGNER.git
+	ignore=dirty
 	branch = develop
 [submodule "DAMASKER"]
 	path = DAMASKER
 	url = ../DAMASKER
+	ignore=dirty
 	branch = develop
 [submodule "DAZZ_DB"]
 	path = DAZZ_DB
 	url = ../DAZZ_DB.git
+	ignore=dirty
 	branch = develop
 [submodule "DEXTRACTOR"]
 	path = DEXTRACTOR
 	url = ../DEXTRACTOR
+	ignore=dirty
 	branch = develop
 [submodule "FALCON"]
 	path = FALCON
 	url = ../FALCON.git
+	ignore=dirty
 	branch = develop
 [submodule "FALCON_unzip"]
 	path = FALCON_unzip
 	url = ../FALCON_unzip_private.git
+	ignore=dirty
 	branch = develop
 [submodule "falcon-phase"]
 	path = falcon-phase
 	url = ../falcon-phase.git
+	ignore=dirty
 	branch = develop
 [submodule "FALCON-make"]
 	path = FALCON-make
@@ -45,4 +53,5 @@
 [submodule "nim-falcon"]
 	path = nim-falcon
 	url = https://github.com/bio-nim/nim-falcon
+	ignore=dirty
 	branch = dev
