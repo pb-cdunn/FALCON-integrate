@@ -1,33 +1,36 @@
-# FALCON-integrate
-This is a place to coordinate FALCON builds and tests.
+# Build latest Falcon source-code.
 
-The git-submodules here define a consistent set of revisions.
+This is much simpler now.
 
-You may use any system you like for building, testing, and integration,
-but we also provide some submodules which can help with that.
+To override bioconda,
 
-## submodules
-In case you are unfamiliar with [**git-submodules**](http://www.git-scm.com/book/en/v2/Git-Tools-Submodules), they are quite easy to use from the command-line:
-```sh
-git submodule update --init --recursive
-```
-If that fails, you can update your **git**, or try this:
-```sh
-git submodule init
-git submodule update
-# You must somehow update recursively also.
-```
-which is *almost* the same thing.
+    # activate bioconda, then ...
 
-## Set-up
-You have a few choices:
+    cd FALCON-integrate
+    source module.sh
+    source env.sh
+    make update
+    make -j all
 
-1. PYTHONUSERBASE
-2. virtualenv
-3. Standard Python installation
+To override smrttools instead,
 
-For more details, see the [wiki](https://github.com/PacificBiosciences/FALCON-integrate/wiki).
+    cd FALCON-integrate
+    source module.sh
+    module load smrttools
+    module list # to be sure
+    source env.sh
+    source env-smrttools.sh
+    make update
+    make -j all
 
-DISCLAIMER
-----------
-THIS WEBSITE AND CONTENT AND ALL SITE-RELATED SERVICES, INCLUDING ANY DATA, ARE PROVIDED "AS IS," WITH ALL FAULTS, WITH NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, NON-INFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE. YOU ASSUME TOTAL RESPONSIBILITY AND RISK FOR YOUR USE OF THIS SITE, ALL SITE-RELATED SERVICES, AND ANY THIRD PARTY WEBSITES OR APPLICATIONS. NO ORAL OR WRITTEN INFORMATION OR ADVICE SHALL CREATE A WARRANTY OF ANY KIND. ANY REFERENCES TO SPECIFIC PRODUCTS OR SERVICES ON THE WEBSITES DO NOT CONSTITUTE OR IMPLY A RECOMMENDATION OR ENDORSEMENT BY PACIFIC BIOSCIENCES.
+Then, if you want,
+
+    make test
+
+That should take only a couple of minutes.
+
+# To do
+Add Unzip and falcon-phase.
+
+# INTERNAL USE ONLY
+For internal use only, as this depends on internal bitbucket repositories.
