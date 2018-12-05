@@ -24,8 +24,12 @@
 	branch = develop
 [submodule "FALCON_unzip"]
 	path = FALCON_unzip
-	url = https://github.com/PacificBiosciences/FALCON_unzip
-	branch = master
+	url = ../FALCON_unzip_private.git
+	branch = develop
+[submodule "falcon-phase"]
+	path = falcon-phase
+	url = ../falcon-phase.git
+	branch = develop
 [submodule "FALCON-make"]
 	path = FALCON-make
 	url = https://github.com/pb-cdunn/FALCON-make.git
