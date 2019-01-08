@@ -55,3 +55,6 @@
 	url = https://github.com/bio-nim/nim-falcon
 	ignore=dirty
 	branch = dev
+[submodule "falcon_unzip_private"]
+	path = falcon_unzip_private
+	url = ssh://git@bitbucket.nanofluidics.com:7999/sat/falcon_unzip_private.git
