@@ -45,6 +45,7 @@
 [submodule "FALCON-examples"]
 	path = FALCON-examples
 	url = https://github.com/pb-cdunn/FALCON-examples.git
+	ignore=dirty
 	branch = master
 [submodule "git-sym"]
 	path = git-sym
