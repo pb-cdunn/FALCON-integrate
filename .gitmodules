@@ -27,12 +27,12 @@
 	path = FALCON
 	url = ../FALCON.git
 	ignore=dirty
-	branch = develop
+	branch = ccs_hacking
 [submodule "FALCON_unzip_private"]
 	path = FALCON_unzip_private
 	url = ../FALCON_unzip_private.git
 	ignore=dirty
-	branch = develop
+	branch = zk_polishing_exp
 [submodule "falcon-phase"]
 	path = falcon-phase
 	url = ../falcon-phase.git
