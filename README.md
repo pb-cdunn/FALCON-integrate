@@ -16,7 +16,9 @@ To override smrttools instead,
 
     cd FALCON-integrate
     source module.sh
+    module unload python
     module load smrttools
+    module load python/2
     module list # to be sure
     source env.sh
     source env-smrttools.sh
