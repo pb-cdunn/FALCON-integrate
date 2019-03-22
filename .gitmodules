@@ -56,6 +56,8 @@
 	url = https://github.com/bio-nim/nim-falcon
 	ignore=dirty
 	branch = dev
-#[submodule "falcon_unzip_private"]
-#	path = falcon_unzip_private
-#	url = ssh://git@bitbucket.nanofluidics.com:7999/sat/falcon_unzip_private.git
+[submodule "running_ccs_unzip"]
+	path = running_ccs_unzip
+	url = ssh://git@bitbucket.nanofluidics.com:7999/~zkronenberg/running_ccs_unzip.git
+	ignore=dirty
+	branch = master
