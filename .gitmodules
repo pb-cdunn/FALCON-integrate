@@ -61,3 +61,8 @@
 	url = ssh://git@bitbucket.nanofluidics.com:7999/~zkronenberg/running_ccs_unzip.git
 	ignore=dirty
 	branch = master
+[submodule "racon"]
+	path = racon
+	url = https://github.com/isovic/racon.git
+	ignore=dirty
+	branch = meson
