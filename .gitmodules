@@ -41,7 +41,7 @@
 [submodule "FALCON-make"]
 	path = FALCON-make
 	url = https://github.com/pb-cdunn/FALCON-make.git
-	branch = master
+	branch = zev
 [submodule "FALCON-examples"]
 	path = FALCON-examples
 	url = https://github.com/pb-cdunn/FALCON-examples.git
