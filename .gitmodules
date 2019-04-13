@@ -32,7 +32,7 @@
 	path = FALCON_unzip_private
 	url = ../FALCON_unzip_private.git
 	ignore=dirty
-	branch = zk_polishing_exp
+	branch = zk
 [submodule "falcon-phase"]
 	path = falcon-phase
 	url = ../falcon-phase.git
