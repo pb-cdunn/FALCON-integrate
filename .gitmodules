@@ -28,11 +28,6 @@
 	url = ../FALCON.git
 	ignore=dirty
 	branch = develop
-[submodule "FALCON_unzip_private"]
-	path = FALCON_unzip_private
-	url = ../FALCON_unzip_private.git
-	ignore=dirty
-	branch = develop
 [submodule "falcon-phase"]
 	path = falcon-phase
 	url = ../falcon-phase.git
