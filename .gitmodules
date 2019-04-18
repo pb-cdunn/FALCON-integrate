@@ -53,3 +53,8 @@
 #[submodule "falcon_unzip_private"]
 #	path = falcon_unzip_private
 #	url = ssh://git@bitbucket.nanofluidics.com:7999/sat/falcon_unzip_private.git
+[submodule "FALCON_unzip"]
+	path = FALCON_unzip_private
+	#url = git@github.com:pb-cdunn/FALCON_unzip
+	url = https://github.com/pb-cdunn/FALCON_unzip.git
+	branch = develop
