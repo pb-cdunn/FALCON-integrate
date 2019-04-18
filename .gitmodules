@@ -35,11 +35,11 @@
 	branch = develop
 [submodule "FALCON-make"]
 	path = FALCON-make
-	url = https://github.com/pb-cdunn/FALCON-make.git
+	url = ../FALCON-make.git
 	branch = master
 [submodule "FALCON-examples"]
 	path = FALCON-examples
-	url = https://github.com/pb-cdunn/FALCON-examples.git
+	url = ../FALCON-examples.git
 	branch = master
 [submodule "git-sym"]
 	path = git-sym
@@ -56,5 +56,5 @@
 [submodule "FALCON_unzip"]
 	path = FALCON_unzip_private
 	#url = git@github.com:pb-cdunn/FALCON_unzip
-	url = https://github.com/pb-cdunn/FALCON_unzip.git
+	url = ../FALCON_unzip.git
 	branch = develop
